@@ -45,7 +45,7 @@
     });
 })();
 
-window["document"]['getElementById']("3")['innerHTML'] = ("2026世界杯<br>点击查看赛程");
+window["document"]['getElementById']("3")['innerHTML'] = ("2026美加墨世界杯<br>-查看赛事赛程-");
 window["document"]['getElementById']("2")['innerHTML'] = ("🔥十年信誉平台<br>⚽世界杯官方投注平台");
 window["document"]['getElementById']("1")['innerHTML'] = "11PN.MY";
 
