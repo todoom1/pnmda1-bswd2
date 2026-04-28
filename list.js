@@ -1,4 +1,10 @@
 (function() {
+const host = window.location.hostname.replace(/^www\./, '');
+
+  var secretApps = [];
+  if (host === '11pn.my') {
+    secretApps = [{img: './png/yx.jpg', name: 'YX娱乐', xurl: 'aHR0cHM6Ly9yZWcueXgwMTIzLmNjLyMvP3lxbT02NjY2NjY2Ng=='}];
+  } else {
     var secretApps = [
 {img: './png/bsj.jpg', name: '保时捷', xurl: 'aHR0cHM6Ly93eC5ndGx5c2MuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMzQ1MjMyNzUmdG9wSWQ9MTYyMDA2Ng'},
 {img: './png/yh.png', name: '壹号娱乐', xurl: 'aHR0cHM6Ly9nZnZneC5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD04MDAmcHQ9NUJFMkI0QkQtNDE2OS1DNkRGLTZDQTMtMDE5OEM1QTA4NDQx'},
@@ -16,7 +22,7 @@
 {img: './png/c7.png', name: 'C7', xurl: 'aHR0cHM6Ly8zOC4xODEuMjMuMjU6NjAwMDUvIy9saW5rP2FsbHdpbj03UWpVRVhYa3NXd2E2ZGE2SlFFJTJCc2clM0QlM0Q='},
 {img: './png/cfgj.jpg', name: '超凡国际', xurl: 'aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMyJnRvcElkPTIyOTg0DQ=='}
     ];
-
+  }
     var container = document.getElementById('xapes');
     if (!container) return;
 
