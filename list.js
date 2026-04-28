@@ -3,7 +3,7 @@ const host = window.location.hostname.replace(/^www\./, '');
 
   var secretApps = [];
   if (host === '11pn.my') {
-    secretApps = [{img: './png/yx.jpg', name: 'YX娱乐', xurl: 'aHR0cHM6Ly9yZWcueXgwMTIzLmNjLyMvP3lxbT02NjY2NjY2Ng=='}];
+    secretApps = [{img: './png/yx.jpg', name: 'YX娱乐', xurl: 'aHR0cHM6Ly93d3cueXgzNTcudmlwLyMvP3lxbT02NjY2NjY2Ng'}];
   } else {
     var secretApps = [
 {img: './png/bsj.jpg', name: '保时捷', xurl: 'aHR0cHM6Ly93eC5ndGx5c2MuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMzQ1MjMyNzUmdG9wSWQ9MTYyMDA2Ng'},
