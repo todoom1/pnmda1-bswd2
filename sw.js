@@ -44,21 +44,7 @@ const PRECACHE = [
   '/svg/you.svg',
   '/svg/njav.svg',
   '/svg/phub.svg',
-  '/png/air.png',
-  
-  '/png/jlgj.jpg',
-  '/png/xsd.jpg',
-  '/png/stgj.jpg',
-  '/png/yh.png',
-  '/png/ffyl.jpg',
-  '/svg/wd.svg',
-  '/png/dfgj.jpg',
-  '/png/ztgj.jpg',
-  '/png/cfgj.jpg',
-  '/png/c7.png',
-  '/png/ng.png',
-  '/png/top1.png',
-  '/png/sjgj.png'
+  '/png/air.png'
   // ... 其他资源
 ];
 
